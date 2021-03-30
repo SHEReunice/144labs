@@ -1,12 +1,16 @@
 //const PI: f32 = 3.14159;
 
+/*
 fn add(x: i32, y: i32) -> i32{
     return x + y;
 }
+*/
 
+/*
 fn swap(x: i32, y: i32) -> (i32, i32) {
     return (y, x);
 }
+*/
 
 
 fn main() {
@@ -47,13 +51,55 @@ fn main() {
     println!("{}", add(42, 13));
     */
       
+    /*
     //返回一个元组
     let result = swap(123, 321);
-    prinltln!("{} {}", result.0, result.1);
+    println!("{} {}", result.0, result.1);
 
     //将元组拆解为两个变量
     let (a, b) = swap(result.0, result.1);
     println!("{} {}", a, b);
+    */
 
+    /*if-else
+    let x = 42;
+    if x < 42 {
+        println!("less than 42");
+    } else if x == 42 {
+        println!("is 42");
+    } else {
+        println!("greater than 42");
+    }
+    */
+
+    /*无限循环loop——break退出当前循环
+   let mut x = 0;
+   loop {
+       x += 1;
+       if x == 42 {
+           break;
+       }
+   } 
+   println!("{}", x);
+   */
+
+   /*
+   let mut x = 0;
+   while x != 42 {
+       x += 1;
+   }
+   */
+
+   /*..运算符创建一个可以生成包含起始数字、但不包含末尾数字的数字序列的迭代器
+   ..=运算符创建一个可以生成包含起始数字、且包含末尾数字的数字序列的迭代器
+   for x in 0..5 {
+       println!("{}", x);
+   }
+
+   for x in 0..=5 {
+    println!("{}", x);
+   }
+   */
+  
     
 }
